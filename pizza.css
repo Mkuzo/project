@@ -126,3 +126,43 @@ main{
   font-size: 1rem;
   line-height: 1.4;
 }
+.about{
+  margin-top: 6rem ;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+.about img{
+  width:100%;
+  border-radius: 20px;
+  height:350;
+  object-fit: cover;
+}
+.about-text{
+    font-size: 1.1rem;
+    margin-left:7%;
+    line-height: 1.5;
+}
+.about-text h2{
+    color:white;
+    font-weight: 700;
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+}
+.about-text p{
+    color:black;
+    font-weight: 500;
+    font-size: medium;
+    
+}
+footer{
+  background: url("no\ wards.jpeg")no-repeat center center/cover;
+  color:rgba(250, 68, 68, 0.85);
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 1rem;
+  background-size: cover;
+}
+footer p{
+  font-weight: 500;
+  font-size: 1.5rem;
+}
