@@ -155,3 +155,32 @@ nav ul li a:hover{
   font-size: 16px;
   line-height: 1.6;
 }
+.Gallery{
+  background-color: #4e4d4d;
+  padding: 80px 20px;
+  text-align: center;
+  color:white;
+}
+.Gallery h2{
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.Gallery-images{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  max-width: 1200px;
+  gap:30px;
+  margin:0 auto;
+  border-radius: 14px;
+}
+.Gallery-images img{
+  width: 100%;
+  height:300px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgb(170, 165, 165);
+}
+.Gallery-images img:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgb(254, 251, 251);
+}
