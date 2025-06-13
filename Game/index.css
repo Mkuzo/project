@@ -179,8 +179,60 @@ nav ul li a:hover{
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgb(170, 165, 165);
+  border:5px solid white;
 }
 .Gallery-images img:hover{
   transform: translateY(-10px);
   box-shadow: 0 4px 15px rgb(254, 251, 251);
+}
+
+#Multiplayer{
+  padding:50px 30px;
+  background: url("2.jpeg")no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  box-shadow: 0 4px 20px white;
+}
+#Multiplayer h2{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color:rgb(253, 255, 255,1.5);
+  line-height: 2;
+}
+#Multiplayer p{
+  font-size: 20px;
+  color:black;
+  margin-bottom: 20px;
+  line-height: 2;
+  font-weight: 300;
+}
+.chat-container{
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 14px;
+  padding:30px;
+  box-shadow: inset 0 0 25px rgba(12,0,6);
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+.chat-container:hover{
+  transform: scale(0.05);
+}
+.play-list{
+  width:40%;
+  background-color: #222;
+  padding:20px;
+  border-radius: 14px;
+  height: 300vh;
+  overflow: auto;
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.6);
+}
+.player{
+  list-style: none;
+  padding: 0;
+  border-radius: 8px;
 }
