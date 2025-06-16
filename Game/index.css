@@ -182,7 +182,6 @@ nav ul li a:hover{
   border:5px solid white;
 }
 .Gallery-images img:hover{
-  transform: translateY(-10px);
   box-shadow: 0 4px 15px rgb(254, 251, 251);
 }
 
@@ -218,9 +217,6 @@ nav ul li a:hover{
   box-shadow: inset 0 0 25px rgba(12,0,6);
   transform: scale(1);
   transition: transform 0.3s ease;
-}
-.chat-container:hover{
-  transform: scale(0.05);
 }
 .play-list{
   width:30%;
@@ -265,4 +261,60 @@ nav ul li a:hover{
   border-radius: 14px;
   box-shadow: inset  0 0 10px rgba(0,0,0,0.8);
   height:400px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.message{
+  flex-grow: 1;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #444;
+  color:#fafafa;
+}
+.message div{
+  margin: 10px 0;
+  padding:15px;
+  background-color: rgba(41, 2, 2, 0.6);
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(6, 6, 6, 0.953);
+}
+#chat-input{
+  padding:10px;
+  width:80%;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+  font-size: 16px;
+  background-color: #060606;
+  color:white;
+  transition: background-color 0.3s ease;
+}
+#chat-input:focus{
+  outline: none;
+  background-color: #444;
+}
+#send-btn{
+  padding:10px 20px;
+  background-color: #f9f8f8;
+  border: none;
+  color:black;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 30%;
+  margin: auto;
+  transition: backgraound-color 0.3s ease;
+  cursor: pointer;
+}
+#send-btn:hover{
+  background-color: #e65c00;
+}
+.gta-btn{
+  text-decoration: none;
+  color:white;
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 10px;
+  background-color: #e65c00;
+  margin-bottom: 20px;
 }
